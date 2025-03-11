@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Sorteio</title>
+    <link rel="stylesheet" href="ATV.CSS">
+</head>
+<body>
+
+
+
+    <nav>
+        <a href="./gorjeta.HTML"> Gorjeta</a>
+        <a href="./simulador.html"> Simulador</a>
+        
+            </nav>
+    <h2>Simulador de Sorteio</h2>
+    
+    
+    <label for="nome">Nome dos participante:</label>
+    <input type="text" id="nome" placeholder="Digite o nome do participante" />
+    <button onclick="adicionarParticipante()">Adicionar Participante</button><br><br>
+    
+    <h3>Participantes:</h3>
+    <ul id="listaParticipantes"></ul><br>
+    
+    <button onclick="sortearVencedor()">Sortear Vencedor</button><br><br>
+    
+    <h3 id="vencedor">Vencedor: Nenhum sorteado ainda.</h3>
+
+
+<script src="./simulador.js"></script>
+</body>
+</html>
