@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="at.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Temperatura</h1>
+        <label for="valor">Digite a temperatura:</label>
+        <input type="number" id="valor" placeholder="Digite a temperatura">
+        
+        <label for="escala">Escolha a escala de origem:</label>
+        <select id="escala">
+            <option value="Celsius">Celsius</option>
+            <option value="Fahrenheit">Fahrenheit</option>
+            <option value="Kelvin">Kelvin</option>
+        </select>
+        
+        <button onclick="converterTemperatura()">Converter</button>
+        
+        <h2>Resultado:</h2>
+        <p id="resultado"></p>
+    </div>
+
+   
+</body>
+
+
+<script src="at.js"></script>
+
+</html>
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="at2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Preço de Viagem de Uber</h1>
+        <label for="distancia">Distância (km):</label>
+        <input type="number" id="distancia" placeholder="Digite a distância">
+        
+        <label for="servico">Escolha o tipo de serviço:</label>
+        <select id="servico">
+            <option value="UberX">UberX</option>
+            <option value="Uber Comfort">Uber Comfort</option>
+            <option value="Uber Black">Uber Black</option>
+        </select>
+        
+        <button onclick="calcularPreco()">Calcular Preço</button>
+        
+        <h2>Preço Estimado:</h2>
+        <p id="preco"></p>
+    </div>
+</body>
+<script src="./at2.js"></script>
+</html>
